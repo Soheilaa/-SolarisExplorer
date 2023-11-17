@@ -1,0 +1,236 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    color: #fff;
+    background: radial-gradient(circle at 60% 15%, rgba(55, 133, 213, 0.3), rgba(0, 0, 0, 0) 65%),
+                radial-gradient(circle at 40% 85%, rgba(213, 0, 213, 0.3), rgba(0, 0, 0, 0) 65%),
+                radial-gradient(circle at 50% 50%, #01014a, #000);
+}
+
+.Stars {
+    box-shadow: 68.7vw 19vh #fff, 55.1vw 0.2vh #fff, 40.7vw 24.5vh #fff, 50.8vw 28.5vh #fff, 14.8vw 71.6vh #fff, 43.6vw 35.3vh #fff, 9.2vw 22.4vh #fff, 3vw 7.8vh #fff, 71.9vw 49.7vh #fff, 26.9vw 6.2vh #fff, 88.7vw 1vh #fff, 15.6vw 87.7vh #fff, 97.3vw 1.6vh #fff, 72.3vw 8.9vh #fff, 74.1vw 32.4vh #fff, 88.3vw 72.8vh #fff, 22vw 65.5vh #fff, 52.6vw 14.1vh #fff, 61.1vw 93.7vh #fff, 2.8vw 33.3vh #fff, 51.1vw 74.8vh #fff, 27.4vw 1.7vh #fff, 45.1vw 81.9vh #fff, 17.3vw 37.1vh #fff, 85.2vw 26.1vh #fff, 70.2vw 88.4vh #fff, 99.6vw 33.3vh #fff, 78.7vw 79.5vh #fff, 23.7vw 46.3vh #fff, 95vw 98.7vh #fff, 80.2vw 16.1vh #fff, 53.8vw 93vh #fff, 48.1vw 29.1vh #fff, 14vw 89.3vh #fff, 37.2vw 64.5vh #fff, 95.9vw 53.6vh #fff, 49vw 93.9vh #fff, 7vw 95.8vh #fff, 21.9vw 15.3vh #fff, 17.3vw 17vh #fff, 21.5vw 56.1vh #fff, 65.1vw 33.3vh #fff, 20.9vw 64.9vh #fff, 39.3vw 11.4vh #fff, 32.6vw 52.5vh #fff, 3.8vw 62vh #fff, 61.6vw 36.7vh #fff, 76.9vw 46.4vh #fff, 73.6vw 28.1vh #fff, 72.9vw 94.5vh #fff, 74.9vw 16.7vh #fff, 83.8vw 23.5vh #fff, 18.2vw 30vh #fff, 75vw 96.9vh #fff, 81.5vw 9.3vh #fff, 69.1vw 95.1vh #fff, 64.6vw 19.9vh #fff, 30.7vw 11.2vh #fff, 18.2vw 33.5vh #fff, 65.3vw 40.3vh #fff, 99.9vw 93.4vh #fff, 74.4vw 96.5vh #fff, 72.5vw 74.3vh #fff, 8.6vw 77.2vh #fff, 67.5vw 23vh #fff, 23.7vw 61.6vh #fff, 77.1vw 87.1vh #fff, 51.3vw 88.5vh #fff, 23.2vw 67.2vh #fff, 60.5vw 58.1vh #fff, 18.2vw 60.4vh #fff, 61.6vw 95.9vh #fff, 77.4vw 65.9vh #fff, 21.8vw 77.1vh #fff, 48.2vw 2.6vh #fff, 65.2vw 45.2vh #fff, 100vw 47.2vh #fff, 37.2vw 70.9vh #fff, 73.9vw 74.7vh #fff, 13.1vw 39.9vh #fff, 23.3vw 70.6vh #fff, 32.7vw 12vh #fff, 98.8vw 19.9vh #fff, 19.3vw 61.4vh #fff, 30.2vw 67.7vh #fff, 59.1vw 68.4vh #fff, 48vw 65.2vh #fff, 57.7vw 28.6vh #fff, 62.4vw 62.5vh #fff, 49.1vw 65.2vh #fff, 33.8vw 0.4vh #fff, 52.9vw 46.5vh #fff, 91.6vw 80vh #fff, 95vw 36.7vh #fff, 43.8vw 83.5vh #fff, 6.4vw 58.7vh #fff, 57.3vw 53.5vh #fff, 36.8vw 29.6vh #fff, 16.8vw 4.6vh #fff, 66.2vw 13.8vh #fff, 59.4vw 15.4vh #fff, 10.3vw 1.9vh #fff, 17.8vw 56.3vh #fff, 82.3vw 93.4vh #fff, 41.7vw 19.9vh #fff, 88.8vw 61.1vh #fff, 66.4vw 79.9vh #fff, 41.4vw 12.3vh #fff, 65.1vw 4.8vh #fff, 82.2vw 8.3vh #fff, 1.9vw 95.5vh #fff, 46vw 80vh #fff, 66.4vw 49vh #fff, 55vw 29.9vh #fff, 2.4vw 24.4vh #fff, 12.5vw 88.2vh #fff, 34.7vw 15.8vh #fff, 50.5vw 25.2vh #fff, 10.7vw 37.9vh #fff, 43.3vw 87.4vh #fff, 56.6vw 73.3vh #fff, 38.9vw 93.1vh #fff, 18.3vw 15.3vh #fff, 68.8vw 16.3vh #fff, 15.4vw 86.2vh #fff, 52.9vw 32.9vh #fff, 58.4vw 0.5vh #fff, 50.1vw 54.8vh #fff, 24.7vw 15.6vh #fff, 37.9vw 27.9vh #fff, 50.3vw 85.7vh #fff, 47vw 64.9vh #fff, 27.4vw 3.8vh #fff, 12vw 10.3vh #fff, 68.8vw 37.1vh #fff, 26.6vw 45.9vh #fff, 92.6vw 24vh #fff, 57.2vw 9.3vh #fff, 30vw 53.5vh #fff, 50vw 30.1vh #fff, 94.7vw 8.7vh #fff, 0.5vw 67.1vh #fff, 12.7vw 78.3vh #fff, 36.2vw 36.2vh #fff, 16.5vw 13.7vh #fff, 22.3vw 25.2vh #fff, 17.3vw 99.3vh #fff, 5vw 43.8vh #fff, 55.2vw 27.6vh #fff, 2.4vw 48.3vh #fff, 69.5vw 1.6vh #fff, 81.7vw 31vh #fff, 43.3vw 40.6vh #fff, 11.5vw 95vh #fff, 84.5vw 6.5vh #fff, 9.3vw 93.6vh #fff, 93vw 58.1vh #fff, 13.8vw 16vh #fff, 45vw 33.5vh #fff, 5vw 97.3vh #fff, 58.5vw 95vh #fff, 89.1vw 28.8vh #fff, 79.9vw 33.7vh #fff, 15.1vw 40.5vh #fff, 32.8vw 50.2vh #fff, 89.3vw 63.3vh #fff, 17.1vw 25.3vh #fff, 39.2vw 59.3vh #fff, 96.4vw 6.7vh #fff, 46.9vw 60.8vh #fff, 93.3vw 19vh #fff, 15.5vw 90.3vh #fff, 36.9vw 44.1vh #fff, 77.8vw 7.2vh #fff, 54.9vw 1vh #fff, 35.9vw 3.5vh #fff, 19.8vw 83vh #fff, 73.7vw 75.3vh #fff, 67vw 15.2vh #fff, 79.2vw 43.5vh #fff, 30.8vw 68.8vh #fff, 94.5vw 44.5vh #fff, 32vw 98.8vh #fff, 77.5vw 45.9vh #fff, 77.8vw 21.7vh #fff, 2.8vw 46.7vh #fff, 4vw 11.2vh #fff, 40.6vw 99.1vh #fff, 89.4vw 90.6vh #fff, 61.6vw 9.8vh #fff, 81.6vw 33.4vh #fff, 79vw 64.6vh #fff, 93vw 73.3vh #fff, 10.3vw 70vh #fff, 46.6vw 22.2vh #fff, 68.3vw 76.8vh #fff, 95.1vw 57.3vh #fff, 97.2vw 56.5vh #fff, 44.4vw 7.8vh #fff, 28.1vw 91vh #fff, 90.7vw 89.5vh #fff, 32.1vw 76.9vh #fff, 42.5vw 77.1vh #fff, 38.2vw 64.8vh #fff, 38.2vw 43.6vh #fff, 82.8vw 17.9vh #fff, 75.3vw 71.6vh #fff, 47.1vw 74.3vh #fff, 10.9vw 87.5vh #fff, 13.5vw 16.7vh #fff, 81.2vw 78.3vh #fff, 31.9vw 61.5vh #fff, 82.8vw 64.6vh #fff, 59.4vw 33.2vh #fff, 31.6vw 34.1vh #fff, 53.4vw 45.5vh #fff, 65.4vw 42.9vh #fff, 7.3vw 67.3vh #fff, 81.9vw 27.1vh #fff, 15.4vw 17.5vh #fff, 41.6vw 58.1vh #fff, 80.3vw 82.8vh #fff, 63.2vw 1.2vh #fff, 41.5vw 23vh #fff, 47.7vw 89vh #fff, 54.2vw 81.6vh #fff, 71.3vw 42.3vh #fff, 48.2vw 73.2vh #fff, 54.6vw 96.3vh #fff, 35.6vw 37.2vh #fff, 66.9vw 15.1vh #fff, 53.1vw 73.2vh #fff, 52vw 81.7vh #fff, 40.7vw 30.2vh #fff, 46.2vw 79vh #fff, 42.4vw 72.6vh #fff, 87.2vw 65.6vh #fff, 41.6vw 68.9vh #fff, 84.5vw 82.8vh #fff, 91.6vw 41.7vh #fff, 57.7vw 19.5vh #fff, 47.6vw 22.8vh #fff, 7.7vw 48.6vh #fff, 33.9vw 88.5vh #fff, 63.4vw 26.7vh #fff, 19.1vw 65.4vh #fff, 60.7vw 23.5vh #fff, 94vw 40.9vh #fff, 3.1vw 65.2vh #fff, 46.2vw 88.8vh #fff, 74.5vw 15.4vh #fff, 93.3vw 24.7vh #fff, 24.8vw 93.8vh #fff, 51.7vw 4.3vh #fff, 29.5vw 83.2vh #fff, 54.6vw 50.2vh #fff, 56.8vw 53.1vh #fff, 87.3vw 95.2vh #fff, 70.8vw 36vh #fff, 69vw 68.5vh #fff, 49.6vw 96.2vh #fff, 55.3vw 60.9vh #fff, 22.6vw 9.8vh #fff, 80.9vw 90.5vh #fff, 59.5vw 98.3vh #fff, 8.9vw 60vh #fff, 91.4vw 98.5vh #fff, 34.5vw 5.5vh #fff, 90.7vw 69vh #fff, 8.8vw 89.6vh #fff, 25.5vw 48.5vh #fff, 96.8vw 15.4vh #fff, 69.9vw 2.7vh #fff, 61.7vw 77.7vh #fff, 61.9vw 19vh #fff, 76vw 59.1vh #fff, 59.2vw 52.9vh #fff, 47.3vw 3.6vh #fff, 92.2vw 33.7vh #fff, 65.1vw 70.6vh #fff, 80.5vw 58.6vh #fff, 44.2vw 73.4vh #fff, 79.5vw 16.8vh #fff, 58.7vw 65.1vh #fff, 59.9vw 43.3vh #fff, 27.9vw 94.6vh #fff, 3.3vw 28.2vh #fff, 40.1vw 24.6vh #fff, 29vw 69.7vh #fff, 82.9vw 29.9vh #fff, 17.3vw 15.5vh #fff, 29.2vw 95.9vh #fff, 49.8vw 17.3vh #fff, 71.6vw 29.9vh #fff, 54.5vw 26.3vh #fff, 2.7vw 36.1vh #fff, 80.3vw 46.8vh #fff, 96.3vw 78.7vh #fff, 64.9vw 94.9vh #fff, 5.5vw 80.9vh #fff;
+}
+
+.w-px {
+    width: 1px;
+}
+.h-px {
+    height: 1px;
+}
+
+/* Optionally, you can add the overlay styles as mentioned in the previous response */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 999; /* Make sure the overlay is above other elements */
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#headerTitile_I {
+    color: #FFD029;
+}
+
+.solaris {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+}
+
+.solaris_sun {
+    /* background-color: #FFD029; */
+    background-image: url(img/sun.png);
+    border-radius: 100%;
+    height: 28rem;
+    width: 20rem;
+    margin-left: -15rem;
+    background-color: #FB7209;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 60px rgba(255, 160, 60, 0.4); 
+}
+
+.solaris__Item {
+    border-radius: 100%;
+    margin-left: 5.5rem;
+}
+
+#merkuriusImage {
+    background-color:#888888;
+    height: 1rem;
+    width: 1rem;
+}
+
+#venusImage {
+    background-color: #E7CDCD;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+#jordenImage {
+    background-image: url(img/earth.png);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#marsImage {
+    background-color:#EF5F5F;
+    height: 1rem;
+    width: 1rem;
+}
+
+#jupiterImage {
+    background-image: url(img/jupiter.png);
+    box-shadow: inset -16px 0 5px rgba(0, 0, 0, 0.5);
+    /* background-color:#E29468; */
+    height: 5rem;
+    width: 5rem;
+}
+
+#saturnusImage {
+    background-color:#C7AA72;
+    height: 4rem;
+    width: 4rem;
+}
+
+.solaris_item-saturnus {
+    width: 124px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: rotate(-30deg);
+    border-radius: 50%;
+    height: 3.5px;
+    margin-top: 31px;
+    margin-left: -31px;
+}
+
+#uranusImage {
+    background-color:#C9D4F1;
+    height: 3rem;
+    width: 3rem;
+}
+
+#neptunusImage {
+    background-color:#7A91A7;
+    height: 3rem;
+    width: 3rem;
+}
+
+#logo {
+    width: 4rem;
+    height: 1rem;
+}
+
+
+.headerTitle {
+    color: white;
+}
+
+h2 {
+    color: #FFD029;
+}
+
+p {
+    max-width: 90%;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.item_moon {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.details_Items {
+    display: grid;
+    grid-template-columns: repeat(2,27rem);
+}
+
+.details_header {
+    padding-left: 2rem;
+    max-width: 80%;
+}
+
+hr {
+    width: 94%;
+    color: #c3c3c7;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  .btn-1 {
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+    float: right;
+  }
+  .btn-1:hover {
+     background: rgb(0,3,255);
+     background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+
+  dialog {
+    width: 71%;
+    margin-top: -35rem;
+    background: linear-gradient(90deg, #3f50ad 0%, #4f2569 100%);
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-left: 4rem;
+  }
+
+  .dialog-container {
+    max-width: 600px; 
+    overflow: hidden; 
+  }
+
+  .contentDetails {
+    max-width: 100%;
+    max-height: 85%;
+  }
+
+  #containerLogo {
+    display: flex;
+    justify-content: center;
+
+}

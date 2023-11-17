@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/earth.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=EB+Garamond:wght@500&family=Fira+Sans:ital,wght@0,100;1,100&family=MedievalSharp&family=Prata&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Solaris Objects</title>
+</head>
+<body>
+    <div class="Stars absolute top-0 left-0 w-px h-px"></div>
+
+    <h1 class="headerTitle">SOLSYSTEMET</h1>
+
+    <h2 id="headerTitile_I" class="headerTitle">SOLARIS</h2>
+
+    <section class="solaris">
+        <a id="solenImage" alt="Solen Image" onclick="showContent('Solen')" href="#">
+            <div class="solaris_sun"></div> 
+        </a>
+        
+        <a id="merkuriusImage" class="solaris__Item" onclick="showContent('Merkurius')" href="#">
+            <div class="solaris_item-merkurius"></div>
+        </a>
+
+        <a id="venusImage" class="solaris__Item" onclick="showContent('Venus')" href="#">
+            <div class="solaris_item-venus"></div>
+        </a>
+
+        <a id="jordenImage" class="solaris__Item" onclick="showContent('Jorden')" href="#">
+            <div class="solaris_item-jorden"></div>
+        </a>
+
+        <a id="marsImage" class="solaris__Item" onclick="showContent('Mars')" href="#">
+            <div class="solaris_item-mars"></div>
+        </a>
+
+        <a id="jupiterImage" class="solaris__Item" onclick="showContent('Jupiter')" href="#">
+            <div class="solaris_item-jupiter"></div>
+        </a>
+
+        <a id="saturnusImage" class="solaris__Item" onclick="showContent('Saturnus')" href="#">
+            <div class="solaris_item-saturnus"></div>
+        </a>
+
+        <a id="uranusImage" class="solaris__Item" onclick="showContent('Uranus')" href="#">
+            <div class="solaris_item-uranus"></div>
+        </a>
+
+        <a id="neptunusImage" class="solaris__Item" onclick="showContent('Neptunus')" href="#">
+            <div class="solaris_item-neptunus"></div>
+        </a>
+    </section>
+
+   <div id="containerLogo">
+        <img id="logo" src="img/logo.webp">
+   </div>
+
+   <div id="contentContainer"></div>
+
+   <script src="index.js"></script>
+
+</body>
+</html>
